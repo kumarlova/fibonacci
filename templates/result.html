@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fibonacci Result</title>
+</head>
+<body>
+    <h2>Fibonacci Result</h2>
+    <p>Calculating Fibonacci sequence for number: {{ number }}</p>
+    <p>Fibonacci sequence:</p>
+    <ul>
+        {% for num in sequence %}
+            <li>{{ num }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
